@@ -1,0 +1,44 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+$fz: 80px;
+$color_1: green;
+
+%tplborder {
+  border-bottom: 5px dashed red;
+}
+
+@mixin fontsz($f, $c) {
+  font-size: $f;
+  color: $c;
+}
+
+.block {
+  width: 300px / 960px * 100%;
+  background-color: gray;
+  padding: 30px;
+  font-size: $fz;
+  line-height: 60px;
+  > p {
+    color: red;
+  }
+  .block_text {
+    font-size: $fz;
+  }
+  span {
+    color: green;
+  }
+}
+.link {
+  color: blue;
+  text-decoration: underline;
+  &:hover {
+    color: $color_1;
+  }
+  @extend %tplborder;
+}
+
+.link_2 {
+  @include fontsz(50px, green);
+  @extend %tplborder;
+}

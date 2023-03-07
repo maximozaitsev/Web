@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://fls.guru/cssposition.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CSS позиционирование (CSS position) // «Фрилансер по жизни»</title>
+		
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="./CSS позиционирование_files/style.css">
+		<link rel="shortcut icon" href="https://fls.guru/favicon.ico">
+		<!-- <meta name="robots" content="noindex, nofollow"> -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="./CSS позиционирование_files/f.txt"></script><script src="./CSS позиционирование_files/f(1).txt"></script><script src="./CSS позиционирование_files/f(2).txt" id="google_shimpl"></script><script data-ad-client="ca-pub-6890231737112341" async="" src="./CSS позиционирование_files/f(3).txt" data-checked-head="true"></script>
+	<meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="./CSS позиционирование_files/f(4).txt" as="script"><script type="text/javascript" src="./CSS позиционирование_files/f(4).txt"></script></head>
+	<body aria-hidden="false" style="padding: 0px 0px 154px;">
+		<div class="wrapper loaded">
+			<div class="wrapper-content" style="height: auto !important;">
+				<div class="wrapper-body" style="height: auto !important;">
+<header class="header">
+	<div class="header__container container">
+		<div class="header__body">
+
+			<!-- LOGO -->
+			<a href="http://fls.guru/" class="header__logo logo">Фрилансер по жизни</a>
+
+
+			<!-- MENU -->
+			<nav class="header-menu">
+				<ul class="header-menu__list">
+					<li><a href="http://fls.guru/" class="header-menu__link">Главная</a></li>
+					<li class="header-menu__item-list">
+						<span href="" class="header-menu__link">Обучение</span>
+						<span class="header-menu__arrow arrow-header"></span>
+						<ul class="sub-menu__list">
+							<li>
+								<a target="_blank" href="http://fls.guru/sublime.html" class="sub-menu__link">Настройка Sublime Text 3</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/bidexample.html" class="sub-menu__link">Шаблон заявки к заказу</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/cssbackground.html" class="sub-menu__link">CSS свойства background</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/cssposition.html" class="sub-menu__link">CSS свойства position</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/flexbox.html" class="sub-menu__link">Шпаргалка по FLEX</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/css-units.html" class="sub-menu__link">Единицы измерения CSS</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/ibg.html" class="sub-menu__link">Применение класса "ibg"</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/csstransition.html" class="sub-menu__link">CSS свойства transition</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/cssanimation.html" class="sub-menu__link">animation и @keyframes</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/slick.html" class="sub-menu__link">Шпаргалка Slick Slider</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/transform.html" class="sub-menu__link">Шпаргалка CSS Transform</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/grid.html" class="sub-menu__link">Шпаргалка CSS Grid</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/gulp.html" class="sub-menu__link">Gulp сценарий</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://fls.guru/js-reservedkeywords.html" class="sub-menu__link">Зарезервированные слова JS</a>
+							</li>
+						</ul>
+					</li>
+					<li><a target="_blank" href="http://fls.guru/itprofessions.html" class="header-menu__link">IT-профессии</a></li>
+					<!-- <li><a target="_blank" href="#" class="header-menu__link">Блог</a></li>	 -->
+				</ul>
+			</nav>
+
+
+
+		</div>
+	</div>
+</header>
+					<div class="content" style="height: auto !important;">
+
+						<!-- CSS свойство position -->
+						<div class="cssbackground" style="height: auto !important;">
+							<div class="cssbackground__container container" style="height: auto !important;">
+
+								<!-- Заголовок блока -->
+								<div class="cssbackground__name name-block">
+									<h1 class="cssbackground__title title"><span>CSS позиционирование (CSS position) // «Фрилансер по жизни»</span></h1>
+									<div class="cssbackground__name-bg">
+										<img src="./CSS позиционирование_files/title-bg.png" alt="">
+									</div>
+									
+								</div><div class="google-auto-placed" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-6890231737112341" data-adsbygoogle-status="done" style="display: block; margin: 10px auto 47px; background-color: transparent; height: 280px;" data-ad-status="filled"><div id="aswift_1_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 280px; width: 1170px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:1170px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1170" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./CSS позиционирование_files/ads.html" data-google-container-id="a!2" data-google-query-id="CO3M44LRxf0CFSbMOwIdPyAKlg" data-load-complete="true"></iframe></div></ins></div>								
+								
+
+								<!-- Главный первый блок -->
+								<div class="cssbackground__main-block">
+									<h2 class="cssbackground__block-title block-title">Что такое CSS позиционирование?</h2>
+									<p class="cssbackground__block-descr block-descr">
+										Различное CSS позиционирование очень часто используется при верстке современных макетов, и открывает для нас новые интересные возможности расположения элементов в потоке. Но нужно быть осторожными и уметь обращаться с этими возможностями грамотно. Рассмотрим такие CSS свойства позиционирования как position, top, left, right, bottom и z-index. А так же их значения.
+									</p>
+								</div>
+
+								<!-- Средний блок со спойлерами -->
+								<div class="cssbackground__middle-block middle-block">
+
+									<!-- Первый сектор -->
+									<div class="cssbackground__sector sector-block">
+
+										<!-- Спойлер -->
+										<div class="sector-block__spoller spoller active">
+											<div class="spoller__text">
+												<h3 class="spoller__title">CSS свойство position <small>+ (left, right, top, bottom и z-index)</small></h3>
+												<div class="spoller__subtitle">Устанавливает способ позиционирования элемента относительно окна браузера или других объектов на веб-странице. Вспомогательные свойства left, right, top и bottom управляют положением элемента, а z-index управляет наложением друг на друга по оси Z</div>
+											</div>
+											<div class="spoller__icons">
+												<svg class="spoller__icon-cross active"><use xlink:href="#spoller-cross"></use></svg>
+											</div>
+										</div>
+
+										<!-- Табы -->
+										<div class="sector-block__tabs tabs" style="display: block;">
+
+											<!-- Навигация табов -->
+											<div class="sector-block-nav nav-sector">
+												<div class="nav-sector__item tab__navitem tab__navitem_big">Static<small>По умолчанию</small></div>
+												<div class="nav-sector__item tab__navitem tab__navitem_big">Relative <small>+top,left</small></div>
+												<div class="nav-sector__item tab__navitem tab__navitem_big">Relative <small>+z-index</small></div>
+												<div class="nav-sector__item tab__navitem tab__navitem_big">Absolute<small>+ position: relative; у родителя </small><small>+top,left</small></div>
+												<div class="nav-sector__item tab__navitem tab__navitem_big">Absolute<small>+top,left</small></div>
+												<div class="nav-sector__item tab__navitem tab__navitem_big">Fixed<small>+width: 100%;</small><small>+top,left</small></div>
+												<div class="nav-sector__item tab__navitem tab__navitem_big active">Sticky*</div>			
+											</div>
+
+											<!-- Тело табов -->
+											<div class="sector-block-body tab-block">
+
+												<!-- Активный таб -->
+												<div class="sector-block-item tab__item">
+
+													<!-- Область с визуальным результатом -->
+													<div class="block-item-block">
+														<div class="block-item-block__value">
+															<div class="position">
+																<div class="position-block position-block--1">.block-1</div>
+																<div class="position-block position-block--2">.block-2</div>
+																<div class="position-block position-block--3">.block-3</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Пояснение с конкретным кодом -->	
+													<p class="block-item__text">Элементы отображаются как обычно. Использование свойств left, top, right, bottom и z-index не приводит к каким-либо результатам.</p>
+
+													<div class="block-item__label">CSS код:</div>
+													<div class="block-item__code code-item">
+														<p class="code-item__main">.mainblock{</p>
+															<span class="code-item__descr">background-color: <i style="background-color: #eee;">#eee</i>;</span>
+															<span class="code-item__descr">position: <strong>static</strong>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-1{</p>
+															<span class="code-item__descr">position: <strong>static</strong>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-2{</p>
+															<span class="code-item__descr">position: <strong>static</strong>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-3{</p>
+															<span class="code-item__descr">position: <strong>static</strong>;</span>
+														<p class="code-item__main">}</p>
+													</div>												
+
+												</div>
+
+												<!-- Второй таб -->
+												<div class="sector-block-item tab__item">
+
+													<!-- Область с визуальным результатом -->
+													<div class="block-item-block">
+														<div class="block-item-block__value">
+															<div class="position">
+																<div class="position-block position-block--1">.block-1</div>
+																<div style="position: relative;top: 30px;left: 20px;" class="position-block position-block--2">.block-2</div>
+																<div class="position-block position-block--3">.block-3</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Пояснение с конкретным кодом -->	
+													<p class="block-item__text">Положение элемента устанавливается относительно его исходного положения в коде. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального расположения.</p>
+
+													<div class="block-item__label">CSS код:</div>
+													<div class="block-item__code code-item">
+														<p class="code-item__main">.mainblock{</p>
+															<span class="code-item__descr">background-color: <i style="background-color: #eee;">#eee</i>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-1{</p>
+															<br>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-2{</p>
+															<span class="code-item__descr">position: <strong>relative</strong>;</span>
+															<span class="code-item__descr"><strong>top: 30px;</strong></span>
+															<span class="code-item__descr"><strong>left: 20px;</strong></span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-3{</p>
+															<br>
+														<p class="code-item__main">}</p>
+													</div>
+
+												</div>												
+
+												<!-- Третий таб -->
+												<div class="sector-block-item tab__item">
+
+													<!-- Область с визуальным результатом -->
+													<div class="block-item-block">
+														<div class="block-item-block__value">
+															<div class="position">
+																<div class="position-block position-block--1">.block-1</div>
+																<div style="position: relative;top: 30px;left: 20px;" class="position-block position-block--2">.block-2</div>
+																<div style="position: relative;z-index: 2;" class="position-block position-block--3">.block-3</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Пояснение с конкретным кодом -->	
+													<p class="block-item__text">Каждый элемент может находиться как ниже, так и выше других объектов веб-страницы, их размещением по z-оси и управляет z-index. Это свойство работает только для элементов, у которых значение position задано как absolute, fixed или relative.</p>
+
+													<div class="block-item__label">CSS код:</div>
+													<div class="block-item__code code-item">
+														<p class="code-item__main">.mainblock{</p>
+															<span class="code-item__descr">background-color: <i style="background-color: #eee;">#eee</i>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-1{</p>
+															<br>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-2{</p>
+															<span class="code-item__descr">position: <strong>relative</strong>;</span>
+															<span class="code-item__descr"><strong>top: 30px;</strong></span>
+															<span class="code-item__descr"><strong>left: 20px;</strong></span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-3{</p>
+															<span class="code-item__descr">position: <strong>relative</strong>;</span>
+															<span class="code-item__descr"><strong>z-index: 2;</strong></span>
+														<p class="code-item__main">}</p>
+													</div>												
+
+												</div>												
+
+												<!-- Четвертый таб -->
+												<div class="sector-block-item tab__item">
+
+													<!-- Область с визуальным результатом -->
+													<div class="block-item-block">
+														<div class="block-item-block__value">
+															<div style="position: relative;" class="position">
+																<div class="position-block position-block--1">.block-1</div>
+																<div style="position: absolute;top: 30px;left: 20px;" class="position-block position-block--2">.block-2</div>
+																<div class="position-block position-block--3">.block-3</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Пояснение с конкретным кодом -->	
+													<p class="block-item__text">Элемент якобы вырывается из кода и зависайт в воздухе. Он перестает влиять на остальные элементы. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону относительно родителя у колого задан параметр position: relative;</p>
+
+													<div class="block-item__label">CSS код:</div>
+													<div class="block-item__code code-item">
+														<p class="code-item__main">.mainblock{</p>
+															<span class="code-item__descr">background-color: <i style="background-color: #eee;">#eee</i>;</span>
+															<span class="code-item__descr">position: <strong>relative</strong>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-1{</p>
+															<br>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-2{</p>
+															<span class="code-item__descr">position: <strong>absolute</strong>;</span>
+															<span class="code-item__descr"><strong>top: 30px;</strong></span>
+															<span class="code-item__descr"><strong>left: 20px;</strong></span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-3{</p>
+															<br>
+														<p class="code-item__main">}</p>
+													</div>												
+
+												</div>
+
+												<!-- Пятый таб -->
+												<div class="sector-block-item tab__item">
+
+													<!-- Область с визуальным результатом -->
+													<div class="block-item-block">
+														<div class="block-item-block__value">
+															<div class="position">
+																<div class="position-block position-block--1">.block-1</div>
+																<div style="position: absolute;top: 30px;left: 20px; z-index: 20;" class="position-block position-block--2">.block-2</div>
+																<div class="position-block position-block--3">.block-3</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Пояснение с конкретным кодом -->	
+													<p class="block-item__text">Элемент якобы вырывается из кода и зависайт в воздухе. Он перестает влиять на остальные элементы. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону относительно родителя у колого задан параметр position: relative; Если такого нет то элемент позиционируется относительно окна браузера.</p>
+
+													<div class="block-item__label">CSS код:</div>
+													<div class="block-item__code code-item">
+														<p class="code-item__main">.mainblock{</p>
+															<span class="code-item__descr">background-color: <i style="background-color: #eee;">#eee</i>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-1{</p>
+															<br>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-2{</p>
+															<span class="code-item__descr">position: <strong>absolute</strong>;</span>
+															<span class="code-item__descr"><strong>top: 30px;</strong></span>
+															<span class="code-item__descr"><strong>left: 20px;</strong></span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-3{</p>
+															<br>
+														<p class="code-item__main">}</p>
+													</div>												
+
+												</div>
+
+												<!-- Шестой таб -->
+												<div class="sector-block-item tab__item">
+
+													<!-- Область с визуальным результатом -->
+													<div class="block-item-block">
+														<div class="block-item-block__value">
+															<div class="position">
+																<div class="position-block position-block--1">.block-1</div>
+																<div style="position: fixed;z-index: 20;width: 100%;top: 0px;left: 0px;" class="position-block position-block--2">.block-2</div>
+																<div class="position-block position-block--3">.block-3</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Пояснение с конкретным кодом -->	
+													<p class="block-item__text">Элемент якобы вырывается из кода и зависайт в воздухе. Фиксируется, то есть не скролится вместе с содержимым. Он перестает влиять на остальные элементы. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону относительно окна браузера.</p>
+
+													<div class="block-item__label">CSS код:</div>
+													<div class="block-item__code code-item">
+														<p class="code-item__main">.mainblock{</p>
+															<span class="code-item__descr">background-color: <i style="background-color: #eee;">#eee</i>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-1{</p>
+															<br>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-2{</p>
+															<span class="code-item__descr">position: <strong>fixed</strong>;</span>
+															<span class="code-item__descr"><strong>width: 100%;</strong></span>
+															<span class="code-item__descr"><strong>top: 0px;</strong></span>
+															<span class="code-item__descr"><strong>left: 0px;</strong></span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-3{</p>
+															<br>
+														<p class="code-item__main">}</p>
+													</div>												
+
+												</div>
+
+												<!-- Седьмой таб -->
+												<div class="sector-block-item tab__item active">
+
+													<!-- Область с визуальным результатом -->
+													<div class="block-item-block">
+														<div class="block-item-block__value">
+															<div class="position">
+																<div class="position-block position-block--1">.block-1</div>
+																<div style="position: sticky;top: 0px;" class="position-block position-block--2">.block-2</div>
+																<div class="position-block position-block--3">.block-3</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Пояснение с конкретным кодом -->	
+													<p class="block-item__text">Это гибридное сочетание значений static и fixed. Изначально єлемент ведет себя как static но после того как скролл доходит до его границы он становиться fixed и прилипает к указанной позиции top или bottom.</p>
+													<p class="block-item__text">* Смотри <a class="block-item__link" href="https://caniuse.com/#search=position%3A%20sticky%3B" target="_blank">поддержку браузерами</a></p>
+													<p class="block-item__text">** Для демонстрации работы нужно проскролить контент внутри блока</p>
+
+													<div class="block-item__label">CSS код:</div>
+													<div class="block-item__code code-item">
+														<p class="code-item__main">.mainblock{</p>
+															<span class="code-item__descr">background-color: <i style="background-color: #eee;">#eee</i>;</span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-1{</p>
+															<br>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-2{</p>
+															<span class="code-item__descr">position: <strong>sticky</strong>;</span>
+															<span class="code-item__descr"><strong>top: 0px;</strong></span>
+														<p class="code-item__main">}</p>
+														<p class="code-item__main">.block-3{</p>
+															<br>
+														<p class="code-item__main">}</p>
+													</div>												
+
+												</div>		
+
+											</div>
+										</div>
+									</div>									
+									
+								</div><div class="google-auto-placed" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-6890231737112341" data-adsbygoogle-status="done" style="display: block; margin: 10px auto 56px; background-color: transparent; height: 90px;" data-ad-status="filled"><div id="aswift_2_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 90px; width: 1170px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:1170px;height:90px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1170" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./CSS позиционирование_files/ads(1).html" data-google-container-id="a!3" data-google-query-id="CO-ImYPRxf0CFSy0mgod8ekLhQ" data-load-complete="true"></iframe></div></ins></div>
+
+								<!-- Последний блок -->
+								<div class="cssbackground__bottom-block">									
+									<h4 class="cssbackground__block-subtitle block-subtitle"><span>Шпаргалка является дополнением к выпуску «CSS позиционирование (CSS position)»</span></h4>
+									<div class="cssbackground__block-video block-video">
+										<iframe src="./CSS позиционирование_files/mpykT40_VBc.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+						
+					</div>	
+
+					
+
+
+<div class="google-auto-placed" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-6890231737112341" data-adsbygoogle-status="done" style="display: block; margin: 10px auto; background-color: transparent; height: 90px;" data-ad-status="filled"><div id="aswift_3_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 90px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0;width:1200px;height:90px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1200" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./CSS позиционирование_files/ads(2).html" data-google-container-id="a!4" data-google-query-id="CMuDmYPRxf0CFQTqmgodRCkGxw" data-load-complete="true"></iframe></div></ins></div><footer class="footer">
+	<div class="footer__container container">
+		<div class="footer__row">
+			
+			<!-- Первая колонка -->
+			<div class="footer__main">
+				<a class="footer__logo logo" target="_blank" href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLKnA">Фрилансер по жизни</a>
+				<div class="footer__descr">YouTube канал</div>
+			</div>
+
+			<!-- Остальные колонки -->				
+			<!-- Вторая -->
+			<div class="footer__column footer__column_1">
+				<div class="footer__title"><span>Соц. сети</span></div>
+				<a target="_blank" href="https://www.facebook.com/freelancerlifestyle/" class="footer__link">FaceBook</a>
+				<a target="_blank" href="https://www.instagram.com/freelancer.lifestyle/" class="footer__link">Instagram</a>
+				
+			</div>
+
+			<!-- Третья -->
+			<div class="footer__column footer__column_2">
+				<div class="footer__title"><span>Полезности</span></div>
+				<a target="_blank" href="http://fls.guru/sublime.html" class="footer__link">Настройка Sublime Text 3</a>
+				<a target="_blank" href="http://fls.guru/bidexample.html" class="footer__link">Шаблон заявки к заказу</a>
+				<a target="_blank" href="http://fls.guru/cssbackground.html" class="footer__link">Шпаргалка CSS свойства</a>
+				<a target="_blank" href="http://fls.guru/flexbox.html" class="footer__link">Шпаргалка по FLEX</a>
+			</div>
+
+			<!-- Последняя -->
+			<div class="footer__column footer__column_3">
+				<div class="footer__subtitle"><span>Проблемы с вёрсткой</span></div>
+				<div class="footer__title"><span>или фронтенд разработкой?</span></div>
+				<a target="_blank" href="https://t.me/flschat" class="footer__btn">Задай свой вопрос</a>					
+			</div>
+
+			
+		</div>
+	</div>
+</footer>
+<svg display="none">	
+
+	<symbol id="spoller-cross" viewBox="0 0 30 30">
+		<path d="M15 1V29" stroke="#ADADAD" stroke-width="2" stroke-linecap="round"></path>
+		<path d="M1 15L29 15" stroke="#ADADAD" stroke-width="2" stroke-linecap="round"></path>
+	</symbol>
+	
+</svg>
+
+
+
+				</div>
+			</div>
+
+
+
+			
+
+		</div>
+<div class="popup">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-content">
+				<div class="popup-close"></div>
+				<div class="popup__title"></div>
+				<div class="popup__txt"></div>
+				<form action="https://fls.guru/cssposition.html#" class="popup-form form">
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input">
+					</div>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email">
+					</div>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req">
+					</div>
+					<div class="form-button">
+						<button type="submit" class="form__btn btn fw"></button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup-video">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-close"></div>
+			<div class="popup-video__value video"></div>
+		</div>
+	</div>
+</div><script src="./CSS позиционирование_files/jquery-3.3.1.min.js.Без названия"></script>
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
+<script src="./CSS позиционирование_files/vendors.js.Без названия"></script>
+<script src="./CSS позиционирование_files/main.js.Без названия"></script>
+<script src="./CSS позиционирование_files/custom.js.Без названия"></script>
+	
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./CSS позиционирование_files/ads(3).html" data-google-container-id="a!1" data-load-complete="true"></iframe></div></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-side-rail-status="idle" style="display: none !important;" data-ad-status="filled"><div id="aswift_5_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 500px; width: 180px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_5" name="aswift_5" style="width:180px !IMPORTANT;height:500px !IMPORTANT" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="180" height="500" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./CSS позиционирование_files/zrt_lookup.html" data-google-container-id="a!6" data-google-query-id="CO3v44LRxf0CFfPJOwIdQ6oK9A" data-load-complete="true"></iframe></div><span class="right-side-rail-edge" style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 0px !important; top: 500px !important; width: 180px !important; height: 5px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;"></span><span class="right-side-rail-dismiss-btn" style="background: rgb(250, 250, 250) !important; position: absolute !important; left: 65px !important; right: 65px !important; top: 505px !important; box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px -1px, rgba(0, 0, 0, 0.1) 0px -1px 2px -1px !important;"><svg style="position: absolute !important; top: 0px !important; display: block !important; width: 50px !important; height: 30px !important; margin-top: -5px !important; transform: none !important; pointer-events: initial !important;"><defs><filter id="right-side-rail-drop-shadow" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><fecomponenttransfer in="SourceAlpha" result="TransferredAlpha"><fefuncr type="discrete" tableValues="0.5"></fefuncr><fefuncg type="discrete" tableValues="0.5"></fefuncg><fefuncb type="discrete" tableValues="0.5"></fefuncb></fecomponenttransfer><fegaussianblur in="TransferredAlpha" stdDeviation="2"></fegaussianblur><feoffset dx="0" dy="0" result="offsetblur"></feoffset><femerge><femergenode></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter></defs><path d="M5,5 L5,17 A8,8 0 0,0 13,25 L37,25 A8,8 0 0,0 45,17 L45,5 Z" stroke="#FAFAFA" stroke-width="1" fill="#FAFAFA" style="filter: url(&quot;#right-side-rail-drop-shadow&quot;);"></path><rect x="0" y="0" width="50" height="5" style="fill: rgb(250, 250, 250);"></rect><g stroke="#616161" stroke-width="2px" stroke-linecap="square"><line x1="18" y1="18" x2="25" y2="12"></line><line x1="25" y1="12" x2="32" y2="18"></line></g></svg></span></ins><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-anchor-status="dismissed" style="display: block; width: 100% !important; height: 129px !important; bottom: -124px; clear: none !important; float: none !important; left: 0px; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1; overflow: visible !important; padding: 0px !important; position: fixed; right: auto !important; top: auto !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647; background: rgb(250, 250, 250) !important;" data-ad-status="filled" data-anchor-shown="true"><div class="grippy-host"></div><div id="aswift_6_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none !important; height: 124px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_6" name="aswift_6" style="width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./CSS позиционирование_files/zrt_lookup(1).html" data-google-container-id="a!7" data-google-query-id="CO7v44LRxf0CFfPJOwIdQ6oK9A" data-load-complete="true"></iframe></div></ins><iframe src="./CSS позиционирование_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="./CSS позиционирование_files/zrt_lookup(2).html" style="display: none;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; clear: none !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: fixed !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647 !important; background: transparent !important;" aria-hidden="true" data-ad-status="filled" data-vignette-loaded="true"><div id="aswift_4_host" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none !important; height: 100vh !important; width: 100vw !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_4" name="aswift_4" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./CSS позиционирование_files/zrt_lookup(3).html" data-google-container-id="a!5" data-google-query-id="COzv44LRxf0CFfPJOwIdQ6oK9A" data-load-complete="true"></iframe></div></ins></html>
