@@ -1,2 +1,10 @@
 // Файл обнуляющих стилей
 @import "nullstyle.scss";
+
+body {
+  font-size: 300px;
+
+  .div {
+    font-size: 300px;
+  }
+}
