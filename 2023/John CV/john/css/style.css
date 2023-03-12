@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -74,10 +75,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-body {
-  font-size: 300px;
+._icon-insta:before {
+  content: "\e900";
 }
 
-body .div {
-  font-size: 300px;
+._icon-fb:before {
+  content: "\e901";
+}
+
+._icon-Linkedin:before {
+  content: "\e902";
+}
+
+._icon-twitter:before {
+  content: "\e903";
 }
