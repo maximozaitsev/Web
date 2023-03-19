@@ -1,0 +1,22 @@
+{
+  "name": "fls-gulp",
+  "version": "1.0.0",
+  "description": "Сборка Gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fls",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.0",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.59.3"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^7.1.0"
+  }
+}
