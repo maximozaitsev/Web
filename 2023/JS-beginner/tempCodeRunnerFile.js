@@ -1,1 +1,1 @@
-console.log(findedPerson);
+console.log("this:", this);
