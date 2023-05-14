@@ -13,18 +13,35 @@ setTimeout(() => {
   addStylesTo(heading, "JavaScript");
 }, 1500);
 
+const link = heading3.querySelector("a");
+
 setTimeout(() => {
-  addStylesTo(heading3, "Практикуйся", "white");
+  addStylesTo(link, "Практикуйся", "white");
 }, 3000);
 
 setTimeout(() => {
-  addStylesTo(heading2, "и всё получится!", "blue");
+  addStylesTo(heading2, "и всё получится!", "blue", "2rem");
 }, 4500);
 
-function addStylesTo(node, text, color = "red") {
+function addStylesTo(node, text, color = "red", fontSize) {
   node.textContent = text;
   node.style.color = color;
   node.style.textAlign = "center";
   node.style.backgroundColor = "black";
   node.style.padding = "2rem";
+  node.style.display = "block";
+  node.style.width = "100%";
+  if (fontSize) {
+    node.style.fontSize = fontSize;
+  }
 }
+
+heading.onclick = () => {
+  if (heading.style.color === "red") {
+    heading.style.color = "black";
+    heading.style.backgroundColor = "white";
+  } else {
+    heading.style.color = "red";
+    heading.style.backgroundColor = "black";
+  }
+};
